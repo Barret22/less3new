@@ -1,8 +1,7 @@
 
 
-
-const first_name = prompt("What is your name?");
-const first_famely = prompt("what is your famely?");
-const ages = prompt("how old are you");
-const userInfo = `${first_name} ${first_famely} is ${ages} years old`;
-console.log(userInfo);
+const strike = '23689';
+console.log(strike);
+console.log(strike[0], strike[1], strike[2], strike[3], strike[4]);
+console.log(strike.split(''));
+console.log(strike.split('').join(''));
